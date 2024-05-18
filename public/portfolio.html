@@ -3,35 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles.css" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
-    <h1>Portfolio</h1>
-    <ul>
-        <li><a href="https://github.com/kelseaconrad19/LibraryDatabase2">Library Management System</a>
+    <div class="main-panel">
+        <div class="container">
+            <div class="navbar">
+                <a href="../index.html"><h2 class="brand">Kelsea Conrad</h2></a>
+                <nav class="nav-links">
+                    <a href="../index.html">Home</a>
+                    <a href="../public/about.html">About me</a>
+                    <a href="../public/resume.html">Resume</a>
+                    <a href="../public/portfolio.html">Portfolio</a>
+                    <a href="../public/skills.html">Skills</a>
+                    <a href="../public/references.html">References</a>
+                    <a href="../public/contact.html">Contact Me</a>
+                </nav>
+        </div>
+    <div class="top welcome-message">
+        <h1 class="title">Portfolio</h1>
+    </div>
+    <div class="portfolio">
+        <div class="lms">
+            <a href="https://github.com/kelseaconrad19/LibraryDatabase2"><h2>Library Management System</h2></a>
             <p>This Library Management System is a Python-based application that facilitates the management of books, members, and genres within a library setting. Users can perform a variety of tasks such as adding, deleting, and searching for books, as well as managing member details and borrowing activities. The system is designed for easy setup and use, requiring only Python and MySQL, and includes a straightforward menu-driven interface for seamless library operations.</p>
-        <img src="../assets/LMS Image.png" height="200"
-        <br>
-        </ul>
-
-    <ul>
-    <li><a href="https://github.com/kelseaconrad19/ContactManagementSystem">Contact Management System</a></li>
+        </div>
+        <div class="lms-image">
+            <img src="../assets/LMS Image.png">
+        </div>
+        <div class="cms">
+            <a href="https://github.com/kelseaconrad19/ContactManagementSystem"><h2>Contact Management System</h2></a>
             <p> The Contact Management System allows users to manage their contacts through a series of straightforward steps. Users can add, edit, delete, and search for contacts, as well as export and import contact lists for easy management. Each operation is facilitated via a simple menu option and requires specific information like email addresses and phone numbers to ensure accurate contact management.</p>
-        <img src="../assets/Contact Management.png" height="200"
-    <br>     
-    </ul>
-
-    <ul>
-        <li><a href="https://github.com/kelseaconrad19/M6ECommerceAPI">E-Commerce API</a></li>
-        <p>This e-commerce application utilizes Flask, SQLAlchemy, and Marshmallow to manage four main components: Customers, Customer Accounts, Products, and Orders. It features robust data models and relationships, offering RESTful API endpoints for effective management of customer information, product catalogs, and order processing. The application facilitates operations like order placement, stock management, and user authentication setup, with Marshmallow schemas providing data validation and serialization, ensuring secure and efficient database interactions.</p>
-        <img src="../assets/Products Table.png" width="350"
-        <br>
-    </ul>
-    
-        
-
-    <nav class="menu">
-        <a href="../index.html">Return Home</a>
-     </nav>
+            <div class="cms-image">
+                <img src="../assets/Contact Management.png">
+            </div>
+        </div>
+        <div class="ecapi">
+            <a href="https://github.com/kelseaconrad19/M6ECommerceAPI"><h2>E-Commerce API</h2></a>
+            <p>This e-commerce application utilizes Flask, SQLAlchemy, and Marshmallow to manage four main components: Customers, Customer Accounts, Products, and Orders. It features robust data models and relationships, offering RESTful API endpoints for effective management of customer information, product catalogs, and order processing. The application facilitates operations like order placement, stock management, and user authentication setup, with Marshmallow schemas providing data validation and serialization, ensuring secure and efficient database interactions.</p>
+            <div class="ecapis-image">
+                <img src="../assets/Products Table.png">
+            </div>
+        </div>
+    </div>
+    <div class="nav">
+        <nav class="menu">
+            <a href="../index.html">Return Home</a>
+        </nav>
+    </div>
 </body>
 </html>

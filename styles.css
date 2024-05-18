@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;700&family=Teachers:ital,wght@0,400..800;1,400..800&display=swap');
+
+body {
+    background-color: #ede7d9;
+}
+
+img {
+    border: 5px solid #4B4237;
+    border-radius: 25px;
+    height: 90%;
+    width: 95%;
+}
+
+.main-image {
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 70%;
+    height: 70%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.brand {
+    font-family: 'Abril Fatface';
+    font-size: 32px;
+    font-weight: bold;
+    color: #4B4237;
+}
+
+.nav-links {
+    justify-self: end;
+}
+
+.nav-links a {
+    font-family: 'Teachers';
+    margin-left: 20px;
+    text-decoration: none;
+    color: orange;
+    font-size: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+
+a:link {
+    color: #D5A021;
+}
+
+a:visited {
+    color: #736B60;
+}
+
+a:hover {
+    color: #F97068;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.welcome-message > h1 {
+    font-family: 'Abril Fatface';
+    font-size: 65pt;
+    color:#D5A021;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Abril Fatface';
+    font-size: 20pt;
+    color:#4B4237;
+    letter-spacing: 2px;
+}
+.name {
+    font-family: 'Abril Fatface';
+    font-size: 27pt;
+    color:#4B4237;
+}
+
+.welcome-message {
+    display: grid;
+    /* grid-template-rows: max-content max-content max-content; */
+    padding-left: 70px;
+    padding-right: 70px;
+    justify-content: center;
+    align-self: center;
+    text-align: center
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Adjust as needed */
+    margin-bottom: 50px;
+}
+
+.home-image {
+    width: 60%;
+    height: auto;
+}
+
+.paragraph {
+    font-family: 'Teachers';
+    font-size: 17pt;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+h1.title {
+    font-family: 'Abril Fatface';
+    font-size: 65pt;
+    color: #53917E;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px
+}
+
+.text p {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#4B4237;
+}
+
+.text h3 {
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    font-weight: bold;
+    color: #F97068;
+}
+
+h3.alone {
+    margin: 50px 0px 0px 60px;
+    font-family: 'Abril Fatface';
+    font-size: 40px;
+    font-weight: bold;
+    color: #4B4237;
+    text-align: center;
+}
+
+.text li {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#4B4237;
+}
+
+h4 {
+    color: #F97068;
+    font-family: 'Abril Fatface';
+    font-size: 22px;
+}
+
+.menu {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#D5A021;
+    margin-bottom: 45px;
+    margin-left: 25px;
+}
+
+.top-and-bottom p {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#4B4237;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.top-and-bottom h3 {
+    font-family: 'Abril Fatface';
+    font-size: 40px;
+    font-weight: bold;
+    color: #53917E;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: center;
+}
+
+.academic-background {
+    margin: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    text-align: right;
+}
+
+.academic-bkgd > h3 {
+    font-size: 50px;
+    color:#53917E;
+    text-align: right;
+}
+
+.schools {
+    margin-left: 20px;
+    text-align: right;
+}
+
+.schools > h2 {
+    color: #D5A021;
+}
+
+.other-image-container {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 0px 0px 10px 0px;
+    margin-bottom: 50px;
+}
+
+.work-photo {
+    height: auto;
+    width: 90%;
+}
+
+.school-photo {
+    margin-bottom: 30px;
+    height: auto;
+    width: 90%;
+}
+
+
+/* Portfolio Design */
+.portfolio {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    margin: 70px;
+    gap: 20px;
+    align-self: center;
+    height: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.lms-image {
+    justify-self: end;
+    max-width: 100%;
+    height: auto;
+}
+
+.cms-image {
+    display: grid;
+    justify-content: center;
+}
+
+.cms-image img {
+    max-width: 200%;
+    height: auto;
+}
+
+.ecapi-image {
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio p {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#4B4237;
+}
+
+.portfolio h2 {
+    font-family: 'Abril Fatface';
+    font-size: 22px;
+    font-weight: bold;
+    color: #D5A021;
+}
+
+h2:hover {
+    color: #F97068;
+}
+
+.cms {
+    padding-right: 30px;
+}
+
+.ecapi {
+    padding-right: 30px;
+}
+
+/* Skills Design */
+.skills-list {
+    padding: 0px 100px;
+}
+.skills-list h3 {
+    font-family: 'Abril Fatface';
+    font-size: 30px;
+    font-weight: bold;
+    color: #F97068;
+}
+
+li {
+    font-family: 'Teachers';
+    font-size:18pt;
+    color:#4B4237;
+}
+
+.menu {
+    padding-top: 20px;
+}
+
+/* REFERENCES */
+.ref-list {
+    padding: 0px 100px;
+}
+
+/* CONTACT SECTION */
+.contact-section {
+    padding: 0 50px;
+    margin-bottom: 100px;
+}
+
+.contact-section h2 {
+    font-family: 'Abril Fatface';
+    font-size: 65pt;
+    color: #53917E;
+    letter-spacing: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-section form {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    font-family: "Teachers", sans-serif;
+    font-size: 16pt;
+    margin-top: 20px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    font-family: "Teachers", sans-serif;
+    border: 2px solid #4B4237;
+    background-color: transparent;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14pt;
+    outline: none;
+    resize: none;
+}
+
+.contact-section form button {
+    font-size: 17pt;
+    font-family: 'Teachers', sans-serif;
+    color: #ede7d9;
+    background-color: #F97068;
+    border: none;
+    height: 50px;
+    cursor: pointer;
+    transition: .1s;
+}  
+
+.contact-section form button:hover {
+    filter: brightness(.9);
+}
